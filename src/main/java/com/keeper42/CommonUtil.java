@@ -13,6 +13,12 @@ public class CommonUtil {
         return Integer.parseInt(next);
     }
 
+    public static Double inputADouble() {
+        Scanner scanner = new Scanner(System.in);
+        String next = scanner.next();
+        return Double.valueOf(next);
+    }
+
     public static int[] inputIntInLine() {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
