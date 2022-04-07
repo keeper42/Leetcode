@@ -10,7 +10,7 @@ import java.util.Stack;
  * @date 2022/4/8
  * @type leetcode 144
  */
-public class preorderTraversal {
+public class PreorderTraversal {
 
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
