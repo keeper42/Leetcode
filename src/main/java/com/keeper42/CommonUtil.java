@@ -40,4 +40,14 @@ public class CommonUtil {
         }
     }
 
+    public static void traversal(int[] arr) {
+        if (arr == null) {
+            return;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+            System.out.print(" ");
+        }
+    }
+
 }
