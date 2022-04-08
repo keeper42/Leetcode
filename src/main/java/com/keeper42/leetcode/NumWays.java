@@ -4,6 +4,7 @@ package com.keeper42.leetcode;
  * @author lijiafan
  * @version 1.0
  * @date 2022/4/9
+ * @type 青蛙跳
  */
 public class NumWays {
 
