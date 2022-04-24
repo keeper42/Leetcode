@@ -37,6 +37,7 @@ public class PathSum {
             sub.remove(sub.size()-1);
             return;
         }
+        // 回溯法
         sub.add(node.val);
         path(node.left, targetSum - node.val, sub);
         path(node.right, targetSum - node.val, sub);

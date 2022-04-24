@@ -42,6 +42,7 @@ public class Permute {
         }
         for(int i = 0; i < nums.length; i++) {
             if(!sub.contains(nums[i])) {
+                // 回溯法
                 sub.add(nums[i]);
                 backtrack(res, sub, nums);
                 sub.remove(sub.size() - 1);
