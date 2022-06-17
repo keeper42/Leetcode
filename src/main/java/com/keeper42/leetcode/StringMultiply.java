@@ -26,7 +26,7 @@ public class StringMultiply {
 
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < mul.length; ++i) {
-            if (mul[i] == 0) {
+            if (mul[i] == 0) {  
                 continue;
             }
             sb.append(mul[i]);
